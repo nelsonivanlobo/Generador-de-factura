@@ -1,0 +1,63 @@
+body{
+    background-image: url("img/vegetables.jpg");
+    background-position: right top; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+#factura {
+    background-color: wheat;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-imp {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button-imp:hover {
+    background-color: #0e4311;
+}
+
+.button-volver{
+    background-color: #aa9933;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button-volver, a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-volver:hover {
+    background-color: rgb(199, 85, 28);
+}
+
+.container-factura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}

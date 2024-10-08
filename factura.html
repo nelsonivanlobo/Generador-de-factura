@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="factura.css">
+    <title>Factura</title>
+</head>
+<body>
+
+<div class="container-factura">
+ <div id="factura"></div>     
+</div>
+
+<div class="container-button">
+<button class="button-imp" onclick="window.print()">Imprimir Factura</button>
+<button class="button-volver"><a href="index.html">volver al inicio</a></button>
+</div>
+
+    <script>
+        window.onload = function() {
+    var facturaHTML = localStorage.getItem('facturaHTML');
+    document.getElementById("factura").innerHTML = facturaHTML;
+};
+    </script>
+</body>
+</html>

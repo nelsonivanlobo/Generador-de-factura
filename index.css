@@ -1,0 +1,72 @@
+body{
+    background-image: url("img/vegetables.jpg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column; 
+    width: 370px;
+    height: auto ;
+    background-color: #257930;
+    margin: 0 auto; 
+    border-radius: 20px;
+}
+
+.container-input label{
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container-input label, .container-inputinput, .container-input button {
+    margin: 0 auto;
+    margin-bottom: 10px; 
+    font-size: 20px; 
+    padding: 10px;
+  }
+
+  .container-input input {
+    margin: 0 auto;
+    align-items: center;
+    border: 5px solid white;
+    width: 300px;
+    border-radius: 4px;
+  }
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.conatiner-img {
+  display: flex;
+  justify-content: center;
+}
+
+
+.container-input button {
+  background-color: #b84e08;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  
+.container-input button:hover {
+  background-color: #c21313;
+}
+
+h1.title {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+img:hover{
+  transform: scale(1.1); 
+}
