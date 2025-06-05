@@ -16,14 +16,32 @@
     <br>
 <div class="container">
     <div class="container-input">
-     <label for="">Ingrese el identificador </label><input type="text" name="idCliente" id="idCliente"  placeholder="idCliente">
+    <label for="">Ingrese el identificador </label><input type="text" name="idCliente" id="idCliente"  placeholder="idCliente">
 
     <label for="">Ingrese nombre del cliente </label><input type="text" name="nombreCliente" id="nombreCliente" placeholder="Nombre">
     
     <label for="">Ingrese la direccion</label><input type="text" name="direccionCliente" id="direccionCliente" placeholder="Direccion">
 
-    <label for="">Ingrese el telefono</label><input type="text" name="telefonoCliente" id="telefonoCliente" placeholder="Telefono">
-    <br>   
+    <label for="">Ingrese el CUIT</label><input type="text" name="cuitCliente" id="cuitCliente" placeholder="CUIT">
+   
+    <div class="container-option">
+    <label for="">Ingrese la condición fiscal</label>
+    <select name="" id="condFinsCliente">
+        <option value="consumidor final">Consumidor final</option>
+        <option value="monotributista">Monotributista</option>
+        <option value="responsable inscripto">Responsable inscripto</option>
+        <option value="exento">Exento</option>
+    </select>
+
+    <label for="">Ingrese el medio de pago</label>
+    <select name="" id="medioPago">
+        <option value="efectivo">Efectivo</option>
+        <option value="tarjeta">Tarjeta</option>
+        <option value="transferencia">Transferencia</option>
+    </select>
+    </div>
+    
+    <br>
     <button type="onclick" name="Continuar" onclick="generarFactura()">Continuar</button>
     </div>
 </div>
