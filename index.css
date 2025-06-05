@@ -91,3 +91,9 @@ h1.title {
 img:hover{
   transform: scale(1.1); 
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
